@@ -1,0 +1,50 @@
+#photo{
+	width: auto;
+	height: 600px;
+	border: 2px solid #ccc;
+	font-size:12px;
+}
+#photo h2{
+	text-indent: 0;
+	text-align: center;
+}
+#photo p{
+	text-align: center;
+	padding-top: 35px;
+	clear: both;
+}
+#photo p a{
+	font-size: 14px;
+	color: #f00;
+	text-decoration: none;
+}
+#photo dl{
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	float: left;
+}
+#photo dl dt{
+	width: 128px;
+	height: 128px;
+	background: url(../../images/album.png) no-repeat;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#photo dl dt a img{
+	padding: 40px 0 0 20px;
+}
+#photo dl dd{
+	width: 90px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 2px;
+}
+#photo dl dd a{
+	color: #333;
+	text-decoration: none;
+}
+#photo dl dd a:hover{
+	color: #f60;
+	text-decoration: underline;
+}

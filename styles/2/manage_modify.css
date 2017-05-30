@@ -1,0 +1,43 @@
+#manage_modify{
+	width: 957px;
+	height: auto;
+	border: 1px solid #999;
+	margin: 0 auto;
+}
+#manage_modify dl{
+	width: 550px;
+	margin: 15px auto;
+	font-size: 14px;
+}
+#manage_modify dl dd{
+	padding: 9px 0;
+	border-bottom: 1px dotted #333;
+}
+#manage_modify dl dd input.text{
+	width: 220px;
+	height: 19px;
+	border: 1px solid #333;
+	background: #fff;
+}
+#manage_modify dl dd span textarea{
+	width: 220px;
+	height: 60px;
+	border: 1px solid #333;
+	background: #fff;
+}
+#manage_modify dl dd input.code{
+	width: 60px;
+}
+#manage_modify dl dd img#code{
+	position: relative;
+	top: 5px;
+	cursor:pointer;
+}
+#manage_modify dl dd input.submit{
+	width: 65px;
+	height: 25px;
+	border: 1px solid #333;
+	background: #fff;
+	cursor: pointer;
+	margin-left: 10px;
+}

@@ -1,0 +1,331 @@
+#photo{
+	width: auto;
+	height: auto;
+	border: 2px solid #ccc;
+	font-size:12px;
+}
+#photo h2{
+	text-indent: 0;
+	text-align: center;
+}
+#photo dl.detail{
+	text-align: center;
+    margin: 20px;
+}
+#photo dl.detail dt{
+	height: 300px;
+}
+#photo dl.detail dt a{
+	color: #333;
+	line-height: 300px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+	vertical-align: top;
+}
+#photo dl.detail dt span{
+	color: #f60;
+	line-height: 300px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+	text-decoration: none;
+	vertical-align: top;
+}
+#photo dl.detail dt a:hover{
+	color: #f60;
+	text-decoration: underline;	
+}
+#photo dl.detail dd.name{
+	color: #333;
+	font-weight: bold;
+}
+#photo dl.detail dd.list a{
+	color: #333;
+	text-decoration: none;
+}
+#photo dl.detail dd.list a:hover{
+	color: #f60;
+	text-decoration: underline;
+}
+#photo .re dl{
+	width: 230px;
+	float: left;
+	padding: 0 10px 0 35px;
+}
+#photo .re dl dt{
+	width: 230px;
+	margin: 0 0 5px 0;
+}
+#photo .re dl dt img{
+	margin: 0 auto;
+	display: block;
+}
+#photo .re dl dd{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 115px;
+	float: left;
+}
+#photo .re dl dd.user{
+	width: 230px;
+	float: none;
+	color: #f60;
+}
+#photo .re dl dd.message{
+	background: url(../../images/x1.gif) no-repeat 15px center;
+}
+#photo .re dl dd.message a{
+	color: #333;
+	text-decoration: none;
+}
+#photo .re dl dd.message a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#photo .re dl dd.friend{
+	background: url(../../images/x2.gif) no-repeat 10px center;
+}
+#photo .re dl dd.friend a{
+	color: #333;
+	text-decoration: none;
+}
+#photo .re dl dd.friend a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#photo .re dl dd.guest{
+	background: url(../../images/x3.gif) no-repeat 15px center;
+}
+#photo .re dl dd.flower{
+	background: url(../../images/flower.png) no-repeat 10px center;
+}
+#photo .re dl dd.flower a{
+	color: #333;
+	text-decoration: none;
+}
+#photo .re dl dd.flower a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#photo .re dl dd.email,#photo .re dl dd.url{
+	width: 340px;
+	text-align: left;
+	padding-top: 2px;
+	text-indent: 15px;
+}
+#photo .re dl dd.email a{
+	color: #333;
+	text-decoration: none;
+}
+#photo .re dl dd.email a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#photo .re dl dd.url a{
+	color: #333;
+	text-decoration: none;
+}
+#photo .re dl dd.url a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#photo .re div.content{
+	float: left;
+	width: 660px;
+	padding: 5px 20px 0 0;
+}
+#photo .re div.content .user{
+	height: 30px;
+	line-height: 30px;
+	background: url(../../images/user.png) no-repeat left center;
+	border-bottom: 1px dashed #999;
+	color: #666;
+}
+#photo .re div.content .user span{
+	float: right;
+	color: #06f;
+}
+#photo .re div.content .user p{
+	padding-left: 20px;
+}
+#photo .re div.content h3{
+	background: url(../../images/answer.png) no-repeat left center;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+#photo .re div.content h3 i{
+	font-style: normal;
+	margin-left: 15px;
+	padding-left: 5px;
+}
+#photo .re div.content h3 img{
+	padding: 10px 0 0 5px;
+}
+#photo .re div.content h3 span{
+	font-size: 12px;
+	font-style: normal;
+	color: #06f;
+}
+#photo .re div.content h3 span a{
+	text-decoration: none;
+	color: #06f;
+}
+#photo .re div.content h3 span a:hover{
+	text-decoration: underline;
+	color: #f60;
+}
+#photo .re div.content .detail{
+	line-height: 100%;
+	font-size: 14px;
+}
+#photo .re div.content .detail a{
+	text-decoration: none;
+	color: #333;
+}
+#photo .re div.content .detail a:hover{
+	text-decoration: underline;
+	color: #f60;
+}
+#photo .re div.content .detail p.autograph{
+	color: #666;
+	border-top: 1px dashed #666;
+	margin: 5px 0;
+	width: 100%; 
+	padding-top: 10px;
+}
+#photo .re div.content .read{
+	font-size: 14px;
+	color: #666;
+	padding-top: 10px;
+}
+#photo p.line{
+	width: 95%;
+	margin: 0 auto;
+	clear: both;
+	height: 10px;
+	border-bottom: 1px dashed #333;
+}
+#photo dl.rephoto{
+	width: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+#photo dl.rephoto dt{
+	text-align: center;
+	padding: 5px 0;
+	font-weight: bold;
+}
+#photo dl.rephoto dd{
+	padding: 5px 0;
+}
+#photo dl.rephoto dd#q a{
+	text-decoration: none;
+	color: #333;
+}
+#photo dl.rephoto dd label{
+	cursor: pointer;
+}
+#photo dl.rephoto dd div#ubb{
+	width: 400px;
+	height: 26px;
+	background: url(../../images/bgMenubar.gif);
+	border: 1px solid #333;
+}
+#photo dl.rephoto dd div#ubb img{
+	display: block;
+	float: left;
+	padding: 5px 1px;
+}
+#photo dl.rephoto dd div#font{
+	display: none;
+	width: 165px;
+	height: 40px;
+	background: #eee;
+	border: 1px solid #333;
+	padding: 8px;
+	line-height: 20px;
+	position: absolute;
+	left: 0px;
+	top: 95px;
+}
+#photo dl.rephoto dd div#font strong{
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#photo dl.rephoto dd div#color{
+	display: none;
+	width: 152px;
+	height: 130px;
+	font-size: 12px;
+	background: #eee;
+	border: 1px solid #333;
+	padding: 4px 0 0 4px;
+	position: absolute;
+	top: 95px;
+    left: 128px;
+}
+#photo dl.rephoto dd div#color strong{
+	border: 1px solid #999;
+	display: block;
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin: 4px 0 0 4px;
+}
+#photo dl.rephoto dd div#color em{
+	display: block;
+	height: 28px;
+	width: 80%;
+	clear: both;
+}
+#photo dl.rephoto dd div#color em input{
+	margin-top: 10px;
+	margin-left: 4px;
+	width: 136px;
+	height: 20px;
+	cursor: pointer;
+	background:#fff;
+}
+#photo dl.rephoto dd textarea{
+	width: 390px;
+	border: 1px solid #333;
+	background: #fff;
+	border-top: none;
+	padding: 5px;
+}
+#photo dl.rephoto dd img#code{
+	position: relative;
+	top: 5px;
+	cursor:pointer;
+}
+#photo dl.rephoto dd input.text{
+	width: 250px;
+	height: 19px;
+	border: 1px solid #333;
+	background: #fff;
+}
+#photo dl.rephoto dd input.code{
+	width: 60px;
+}
+#photo dl.rephoto dd input.submit{
+	width: 75px;
+	height: 24px;
+	border: 1px solid #333;
+	background: #fff;
+	cursor: pointer;
+	color: #333;
+}
+#photo dl.rephoto dd input.submit:hover{
+	background: #f60;
+}

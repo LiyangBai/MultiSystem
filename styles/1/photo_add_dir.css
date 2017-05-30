@@ -1,0 +1,44 @@
+#photo{
+	width: auto;
+	border: 2px solid #ccc;
+	font-size:12px;
+}
+#photo h2{
+	text-indent: 0;
+	text-align: center;
+}
+#photo dl{
+	width: 280px;
+	margin: 5px auto;
+}
+#photo dl dd{
+	padding: 5px 0;
+}
+#photo dl dd input.text{
+	border: 1px solid #333;
+	background: #fff;
+	width: 180px;
+	height: 19px;
+}
+#photo dl dd#passward{
+	display: none;
+}
+#photo dl dd textarea{
+	border: 1px solid #333;
+	background: #fff;
+	width: 180px;
+	height: 70px;
+}
+#photo dl dd input.submit{
+	cursor: pointer;
+	margin: 0 0 0 100px;
+}
+
+
+
+
+
+
+
+
+

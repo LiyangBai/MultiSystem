@@ -1,0 +1,125 @@
+#artical_subject_modify{
+	width: auto;
+	height: 650px;
+	border: 2px solid #ccc;
+	font-size:12px;
+	position: relative;
+}
+#artical_subject_modify h2{
+	text-indent: 0;
+	text-align: center;
+}
+#artical_subject_modify dl{
+	width: 450px;
+	margin: 0 auto;
+}
+#artical_subject_modify dl dt{
+	text-align: center;
+	padding: 5px 0;
+	font-weight: bold;
+}
+#artical_subject_modify dl dd{
+	padding: 5px 0;
+}
+#artical_subject_modify dl dd#q a{
+	text-decoration: none;
+	color: #333;
+}
+#artical_subject_modify dl dd label{
+	cursor: pointer;
+}
+#artical_subject_modify dl dd div#ubb{
+	width: 400px;
+	height: 26px;
+	background: url(../../images/bgMenubar.gif);
+	border: 1px solid #333;
+}
+#artical_subject_modify dl dd div#ubb img{
+	display: block;
+	float: left;
+	padding: 5px 1px;
+}
+#artical_subject_modify dl dd div#font{
+	display: none;
+	width: 147px;
+	height: 40px;
+	background: #eee;
+	border: 1px solid #333;
+	padding: 8px;
+	line-height: 20px;
+	position: absolute;
+	left: 253px;
+	top: 195px;
+}
+#artical_subject_modify dl dd div#font strong{
+	font-weight: normal;
+	background: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+#artical_subject_modify dl dd div#color{
+	display: none;
+	width: 152px;
+	height: 130px;
+	font-size: 12px;
+	background: #eee;
+	border: 1px solid #333;
+	padding: 4px 0 0 4px;
+	position: absolute;
+	top: 195px;
+	left: 380px;
+}
+#artical_subject_modify dl dd div#color strong{
+	border: 1px solid #999;
+	display: block;
+	width: 12px;
+	height: 12px;
+	float: left;
+	margin: 4px 0 0 4px;
+}
+#artical_subject_modify dl dd div#color em{
+	display: block;
+	height: 28px;
+	width: 80%;
+	clear: both;
+}
+#artical_subject_modify dl dd div#color em input{
+	margin-top: 10px;
+	margin-left: 4px;
+	width: 136px;
+	height: 20px;
+	cursor: pointer;
+	background:#fff;
+}
+#artical_subject_modify dl dd textarea{
+	width: 390px;
+	border: 1px solid #333;
+	background: #fff;
+	border-top: none;
+	padding: 5px;
+}
+#artical_subject_modify dl dd img#code{
+	position: relative;
+	top: 5px;
+	cursor:pointer;
+}
+#artical_subject_modify dl dd input.text{
+	width: 250px;
+	height: 19px;
+	border: 1px solid #333;
+	background: #fff;
+}
+#artical_subject_modify dl dd input.code{
+	width: 60px;
+}
+#artical_subject_modify dl dd input.submit{
+	width: 75px;
+	height: 21px;
+	border: 1px solid #333;
+	background: #fff;
+	cursor: pointer;
+	color: #333;
+}
+#artical_subject_modify dl dd input.submit:hover{
+	background: #f60;
+}

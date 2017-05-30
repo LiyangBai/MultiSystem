@@ -1,0 +1,192 @@
+#list{
+	width: 600px;
+	height: 712px;
+	border: 2px solid #ccc;
+	float: right;
+}
+#list a.post{
+	display: block;
+	width: 114px;
+	height: 35px;
+	background: url(../../images/artical.jpg) no-repeat;
+	text-indent: -9999px;
+	margin: 10px 0 0 auto;
+}
+#list ul.artical{
+	padding: 10px 50px; 
+}
+#list ul.artical li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #333;
+}
+#list ul.artical li{
+	padding: 0 0 0 25px;
+}
+#list ul.artical li.icon1{
+	background: url(../../images/icon1.png) no-repeat left center;
+}
+#list ul.artical li.icon2{
+	background: url(../../images/icon2.png) no-repeat left center;
+}
+#list ul.artical li.icon3{
+	background: url(../../images/icon3.png) no-repeat left center;
+}
+#list ul.artical li.icon4{
+	background: url(../../images/icon4.png) no-repeat left center;
+}
+#list ul.artical li.icon5{
+	background: url(../../images/icon5.png) no-repeat left center;
+}
+#list ul.artical li.icon6{
+	background: url(../../images/icon6.png) no-repeat left center;
+}
+#list ul.artical li.icon7{
+	background: url(../../images/icon7.png) no-repeat left center;
+}
+#list ul.artical li.icon8{
+	background: url(../../images/icon8.png) no-repeat left center;
+}
+#list ul.artical li.icon9{
+	background: url(../../images/icon9.png) no-repeat left center;
+}
+#list ul.artical li.icon10{
+	background: url(../../images/icon10.png) no-repeat left center;
+}
+#list ul.artical li.icon11{
+	background: url(../../images/icon11.png) no-repeat left center;
+}
+#list ul.artical li.icon12{
+	background: url(../../images/icon12.png) no-repeat left center;
+}
+#list ul.artical li.icon13{
+	background: url(../../images/icon13.png) no-repeat left center;
+}
+#list ul.artical li.icon14{
+	background: url(../../images/icon14.png) no-repeat left center;
+}
+#list ul.artical li.icon15{
+	background: url(../../images/icon15.png) no-repeat left center;
+}
+#list ul.artical li.icon16{
+	background: url(../../images/icon16.png) no-repeat left center;
+}
+#list ul.artical li a{
+	color: #333;
+	text-decoration: none;
+}
+#list ul.artical li a:hover{
+	color: #f60;
+}
+#list ul.artical li em{
+	float: right;
+	font-style: normal;
+}
+#user{
+	width: 340px;
+	height: 370px;
+	border: 2px solid #ccc;
+	float: left;
+	margin: 0 0 10px;
+	font-size: 12px;
+}
+#user dl{
+	width: 230px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#user dl dt{
+	width: 230px;
+	margin: 0 0 5px 0;
+}
+#user dl dt img{
+	margin: 0 auto;
+	display: block;
+}
+#user dl dd{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 115px;
+	float: left;
+}
+#user dl dd.user{
+	width: 230px;
+	float: none;
+	color: #f60;
+}
+#user dl dd.message{
+	background: url(../../images/x1.gif) no-repeat 15px center;
+}
+#user dl dd.message a{
+	color: #333;
+	text-decoration: none;
+}
+#user dl dd.message a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#user dl dd.friend{
+	background: url(../../images/x2.gif) no-repeat 10px center;
+}
+#user dl dd.friend a{
+	color: #333;
+	text-decoration: none;
+}
+#user dl dd.friend a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#user dl dd.guest{
+	background: url(../../images/x3.gif) no-repeat 15px center;
+}
+#user dl dd.flower{
+	background: url(../../images/flower.png) no-repeat 10px center;
+}
+#user dl dd.flower a{
+	color: #333;
+	text-decoration: none;
+}
+#user dl dd.flower a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#user dl dd.email,#user dl dd.url{
+	width: 340px;
+	text-align: left;
+	padding-top: 2px;
+	text-indent: 15px;
+}
+#user dl dd.email a{
+	color: #333;
+	text-decoration: none;
+}
+#user dl dd.email a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#user dl dd.url a{
+	color: #333;
+	text-decoration: none;
+}
+#user dl dd.url a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#pics{
+	width: 340px;
+	height: 328px;
+	border: 2px solid #ccc;
+	float: left;
+}
+#pics img{
+	display: block;
+	line-height: 302px;
+    height: 302px;
+    width: 340px;
+}

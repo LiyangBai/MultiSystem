@@ -1,0 +1,75 @@
+#blog{
+	width: auto;
+	line-height: 600px;
+	border: 2px solid #ccc;
+	font-size:12px;
+}
+#blog h2{
+	text-indent: 0;
+	text-align: center;
+}
+#blog dl{
+	width: 230px;
+	padding-top: 5px;
+	float: left;
+	margin: 0 0 0 7px;
+}
+#blog dl dt{
+	width: 230px;
+	margin: 0 0 5px 0;
+}
+#blog dl dt img{
+	margin: 0 auto;
+	display: block;
+}
+#blog dl dd{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	width: 115px;
+	float: left;
+}
+#blog dl dd.user{
+	width: 230px;
+	float: none;
+	color: #f60;
+}
+#blog dl dd.message{
+	background: url(../../images/x1.gif) no-repeat 15px center;
+}
+#blog dl dd.message a{
+	color: #333;
+	text-decoration: none;
+}
+#blog dl dd.message a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#blog dl dd.friend{
+	background: url(../../images/x2.gif) no-repeat 10px center;
+}
+#blog dl dd.friend a{
+	color: #333;
+	text-decoration: none;
+}
+#blog dl dd.friend a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}
+#blog dl dd.guest{
+	background: url(../../images/x3.gif) no-repeat 15px center;
+}
+#blog dl dd.flower{
+	background: url(../../images/flower.png) no-repeat 10px center;
+}
+#blog dl dd.flower a{
+	color: #333;
+	text-decoration: none;
+}
+#blog dl dd.flower a:hover{
+	text-decoration: underline;
+	color: #f00;
+	cursor: pointer;
+}

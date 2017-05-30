@@ -1,0 +1,9 @@
+#member #member_main dl{
+	width: 550px;
+	margin: 15px auto;
+	font-size: 14px;
+}
+#member #member_main dd{
+	padding: 10px 0;
+	border-bottom: 1px dotted #333;
+}
